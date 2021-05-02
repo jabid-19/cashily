@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Video from "../../videos/gif.gif";
+import Video from "../../videos/img.png";
 // import Video from "https://www.youtube.com/watch?v=5iN1CbLwQzo";
 import {
   HeroContainer,
