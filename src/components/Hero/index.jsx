@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import Video from "../../videos/video.mp4";
 import Video from "../../videos/gif.gif";
+// import Video from "https://www.youtube.com/watch?v=5iN1CbLwQzo";
 import {
   HeroContainer,
   HeroBg,
@@ -25,6 +25,13 @@ const Hero = () => {
     <HeroContainer id="home">
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        {/* <VideoBg
+          autoPlay
+          loop
+          muted
+          src="https://www.youtube.com/watch?v=5iN1CbLwQzo"
+          type="video/mp4"
+        /> */}
       </HeroBg>
       <HeroContent>
         <HeroH1> Online Banking Make Easy</HeroH1>
